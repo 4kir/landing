@@ -1,0 +1,44 @@
+.plus {
+  margin-bottom: 30px;
+}
+
+.plus_item {
+  width: 19%;
+}
+
+.plus_items {
+  align-items: flex-start;
+}
+
+.plus_pic {
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.plus_pic img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.plus_item h5 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.plus_item p {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+}

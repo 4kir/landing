@@ -1,0 +1,37 @@
+.header {
+  padding: 15px 0;
+  background: #818b8e;
+}
+
+.logo {
+  width: 85px;
+  height: 85px;
+  overflow: hidden;
+}
+
+.nav {
+  width: 75%;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 4px;
+  color: #fff;
+}
+
+.nav_link:hover a {
+  color: #9494ea;
+  transition: all ease .3s;
+}

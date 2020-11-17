@@ -1,0 +1,30 @@
+.about_inner {
+ overflow: hidden;
+ border: 1px solid #ccc;
+ padding: 31px 34px 15px 33px;
+}
+
+.about {
+  margin-bottom: 55px;
+}
+
+.about_pic {
+  width: 556px;
+  height: 308px;
+  overflow: hidden;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.about_pic iframe{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about_text {
+  width: 47%;
+  font-size: 20px;
+  line-height: 1.4;
+  padding-right: 12px;
+}
